@@ -49,7 +49,7 @@ export class Gallery extends React.Component {
     render() {
         if (this.state.isLoading) {
             return <div className="loading">
-                <img src="./src/js/ajax-loader.gif" alt=""/>
+                <img src="./src/js/ajax-loader.gif" alt="dog"/>
             </div>
         } else {
             return <div className="container">
